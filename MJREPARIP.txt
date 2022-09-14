@@ -1,0 +1,55 @@
+using System;
+namespace Resume
+{
+class Information
+{
+      static void Main() {int padAmount = 50;
+        
+        Console.Write("Enter the Name:");
+String name = Console.ReadLine();
+Console.Write("Enter the Present Address:");
+String paddress = Console.ReadLine();
+Console.Write("Enter the Date of birth:");
+String date = Console.ReadLine();
+Console.Write("Enter the Civil Status:");
+String cstatus = Console.ReadLine();
+Console.Write("Enter the Citizenship:");
+String citizenship = Console.ReadLine();
+Console.Write("Enter the Name of Faher:");
+String nfather = Console.ReadLine();
+Console.Write("Enter the Name of Mother:");
+String nmother = Console.ReadLine();
+Console.Write("Enter Address:");
+String address = Console.ReadLine();
+Console.Write("Enter Language:");
+String language = Console.ReadLine();
+Console.Write("Enter Incase of Emergency:");
+String emergency = Console.ReadLine();
+Console.Write("Enter Religion:");
+String religion = Console.ReadLine();
+Console.Write("Enter Age:");
+String age = Console.ReadLine();
+Console.Write("Enter Weight:");
+String weight = Console.ReadLine();
+Console.Write("Enter Height:");
+String height = Console.ReadLine();
+
+
+
+Console.Write("\n Name: " + name);
+Console.Write("\n Present Address: " + paddress);
+Console.Write(("\n Date of birth:" + date).PadRight(padAmount, ' '));
+Console.Write("Religion: " + religion);
+Console.Write(("\n Civil Status: " + cstatus).PadRight(padAmount, ' '));
+Console.Write("Age: " + age);
+Console.Write(("\n Citizenship: " + citizenship).PadRight(padAmount, ' '));
+Console.Write("Weight: " + weight);
+Console.Write(("\n Name of Faher: " + nfather).PadRight(padAmount, ' '));
+Console.Write("Height: " + height);
+Console.Write("\n Name of Mother: " + nmother);
+Console.Write("\n Address: " + address);
+Console.Write("\n Language: " + language);
+Console.Write("\n Incase of Emergency: " + emergency);
+}
+}
+}
